@@ -40,7 +40,7 @@ public class LoginController {
 	@RequestMapping("/")
 	public String home(Model model) {
 
-		//tjfgfdsafdsjkjkjaasfdfddfraghavkkdfd
+		//tjfgfdsafdsjkjkjaasfdfddfraghavkkdfdsd
 
 		//Test Code to test univDAO.queryUniversitiesOnUserProfile
 		/*for(Universities univ: univDAO.queryUniversitiesOnUserProfile(3.4f, 0, false, false))
