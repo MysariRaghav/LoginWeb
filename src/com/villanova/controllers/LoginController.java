@@ -11,14 +11,6 @@ import org.springframework.validation.BindingResult;
 import org.springframework.validation.ObjectError;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
-
-
-
-
-
-
-
-
 //import com.sun.javafx.collections.MappingChange.Map;
 import com.villanova.dao.LoginDetails;
 import com.villanova.dao.Universities;
@@ -39,7 +31,7 @@ public class LoginController {
 	
 	@RequestMapping("/")
 	public String home(Model model) {
-		//tjfgfdsafdsjkjkjaasfdfdsasraghav
+		//tj
 		//Test Code to test univDAO.queryUniversitiesOnUserProfile
 		/*for(Universities univ: univDAO.queryUniversitiesOnUserProfile(3.4f, 0, false, false))
 		System.out.println(univ);*/	
