@@ -8,7 +8,7 @@
 		http://www.springframework.org/schema/jee http://www.springframework.org/schema/jee/spring-jee-4.2.xsd">
 
 
-	<context:annotation-config></context:annotation-config>
+	<!-- <context:annotation-config></context:annotation-config> -->
 	<context:component-scan base-package="com.villanova.dao"></context:component-scan>
 	<jee:jndi-lookup jndi-name="jdbc/Database" id="dataSource"
 		expected-type="javax.sql.DataSource">
